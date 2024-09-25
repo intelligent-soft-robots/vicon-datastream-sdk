@@ -3,6 +3,8 @@ project(vicon-datastream-sdk VERSION 1.11.0)
 
 set (CMAKE_CXX_STANDARD 11)
 
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
 include(GNUInstallDirs)
 include(CMakePackageConfigHelpers)
 
